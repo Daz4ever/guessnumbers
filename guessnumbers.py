@@ -11,3 +11,14 @@ while True:
     else:
         print "Nope, try again."
         myNum = int(raw_input("> "))
+
+
+#another way shorter way
+
+while True:
+    guess = int(raw_input("what is your guess?? ")
+    if guess == secret_number:
+        break
+    print "Nope, try again."
+
+print "Yes! You win!"
